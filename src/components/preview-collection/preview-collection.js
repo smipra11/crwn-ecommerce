@@ -15,7 +15,7 @@ const CollectPreview = ({title,items}) =>{
                 
                . map((item) =>(
                     //<div key={item.id}>{item.name} </div>
-                    <CollectionItem  key= {item.id}name={item.name} imageUrl={item.imageUrl} price={item.price}/>
+                    <CollectionItem  key= {item.id}item ={item}/>
                 ))}
             </div>
 
