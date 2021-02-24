@@ -1,8 +1,12 @@
+
+import hat from "../../assets/hat.jpg"
+import mens from "../../assets/mens.jpg"
+import women from "../../assets/women.jpg"
 const INITIAL_STATE ={
     sections:[
         {
             title: 'hats',
-            imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
+            imageUrl: hat,
             id: 1,
             linkUrl: 'shop/hats',
             
@@ -21,7 +25,7 @@ const INITIAL_STATE ={
           },
           {
             title: 'womens',
-            imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
+            imageUrl: women,
             size: 'large',
             id: 4,
             linkUrl: 'shop/womens',
@@ -29,7 +33,7 @@ const INITIAL_STATE ={
           },
           {
             title: 'mens',
-            imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
+            imageUrl: mens,
             size: 'large',
             id: 5,
             linkUrl: 'shop/mens'
